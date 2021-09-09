@@ -1,0 +1,25 @@
+.form {
+  display: inline-flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  background-color: rgba(72, 186, 221, 0.212);
+}
+
+.title {
+  font-weight: 600;
+}
+
+.btn {
+  width: 100px;
+  margin: 15px auto;
+  background-color: rgba(26, 169, 236, 0.698);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: rgb(135, 224, 150);
+}
